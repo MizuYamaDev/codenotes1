@@ -1,0 +1,29 @@
+
+.gilgamesh {
+
+    width: 100px;
+
+    height: 100px;
+
+    margin-right: 10px;
+
+    border-radius: 50px;    
+    /* allows you to round corner or images, if set to half the image width and height it provides a round image*/ 
+
+    float: left;
+
+    object-fit: cover;
+       /* fixes scaling issues */
+
+       object-position: top; 
+
+    /* allows you to choose the position of the image, as part of it may not be visible from the object-fit option.*/
+}
+
+.username {
+    font-weight: bold;
+}
+
+.footer-three {
+    flex: 2;
+}
