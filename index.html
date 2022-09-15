@@ -41,20 +41,58 @@
   <body>
     <!-- Contains the Content of The Site -->
 
-    <a href="../project2/flexboxnotes.html" target="_blank"> FlexBox Notes</a>
+    <div class="flex-container">
+      <div class="profilepic">
+        <img
+          class="gilgamesh"
+          src="/images/kg1.jpg"
+          alt="King Gilgameshes' Profile Picture"
+        />
+      </div>
+      <!-- Image source is how the file is located and alt is for an alternate explanation for when the img cannot load or for the visually impaired -->
 
-    <img
-      class="gilgamesh"
-      src="/images/kg1.jpg"
-      alt="King Gilgameshes' Profile Picture"
-    />
-    <!-- Image source is how the file is located and alt is for an alternate explanation for when the img cannot load or for the visually impaired -->
+      <!-- Paragraphs are used to add the text content of the page -->
 
-    <!-- Paragraphs are used to add the text content of the page -->
+      <div class="bark">
+        <p class="username">@KingGilgamesh</p>
+        <!-- Class allows CSS to identify and specify the rules of how it will affect this content -->
 
-    <p class="username">@KingGilgamesh</p>
-    <!-- Class allows CSS to identify and specify the rules of how it will affect this content -->
+        <p>
+          By decree of King Gilgamesh, you shall program till your fingers are
+          bone!
+        </p>
+      </div>
+    </div>
 
-    <p>Tis' time to return to conquer the Crabs of Sandy Key!</p>
+    <h1 class="header1">Notes & Projects; Journey HTML to JS</h1>
+    <div>
+      <div class="notes-container">
+        <div class="header"><h2>Flexbox Notes</h2></div>
+
+        <div class="message">
+          <div class="note-link"><a href="/project2/flexone.html"> First look </a></div>
+          <div> <p>internetting is hard, flex box edition</p> </div>
+        </div>
+
+        <div class="message">
+          <div class="note-link"><a href="/project2/flextwo.html" target="_blank"> Advanced Positioning </a></div>
+          <div>
+          <p>Interneting is hard's advanced positioning notes.</p>
+      </div>  
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-container">
+      <h1> The Odin Project: Projects!</h1>
+    
+    <div class=" project-item-container">
+      <div class="project-item">
+       <p> Project: Landing Page </p>
+       <a href="/top-projects/landingpage.html" target="_blank"> Visit Project! </a>
+      </div>
+    </div>
+    </div>
   </body>
 </html>
