@@ -1,3 +1,7 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .header-container {
     display: flex;
     height: 150px;
@@ -10,7 +14,7 @@
     font-size: 24px;
     display: flex;
     align-items: center;
-    min-width: 500px ;
+    min-width: 700px ;
     margin: 20px;
 }
 
@@ -31,8 +35,9 @@
     background-color: #1F2937;
     margin-top: -22px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 75px;
+    gap: 1%;
 }
 
 .first-box-title {
@@ -47,13 +52,13 @@
     text-align: justify;
 }
 
-button {
-    background-color:#3882f6;
-    size: 48px;
+.button {
+    background-color: #3882f6;
+    
 }
 
 .placeholder-image {
-    width: 1000px;
+     width: 1000px;
     height: 350px;
     padding-top: 75px;
     object-fit: cover;
@@ -70,28 +75,105 @@ button {
 
 }
 .second-box {
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
-    flex-basis: auto;
-    gap: 30px;
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
 }
 
 .squares {
-    background-color: white;
-    width: 200px;
-    height: 200px;
-    flex-direction: row;
+    display: flex;
     box-sizing: border-box;
     border-style: solid;
     border-radius: 25px;
     border-color: #3882f6;
-    margin: 25px;
+    margin: 60px;
+    width: 200px;
+    height: 200px;
+    
+    
 }
-.stext {
-    ?
- what
+.subtext1 {
+    
+    
+  
 }
 
+.third-container {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 300px;
+    padding: 200px;
+    font-size: 36px;
+    Display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: end;
+}
+
+.fourth-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .blue-box {
+    background-color: #3882f6;
+    width: 1200px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+ }
+
+ .textbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: justify;
+    color: #f9faf8;
+    padding: 100px;
+ }
+
+ .button1 {
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    width: 15%;
+ }
+
+ .button-title {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.button-text{
+    font-style: italic;
+    font-size: 22px;
+}
+
+.footer-box {
+    background-color: #1F2937;
+    width: 100%;
+    height: 150px;
+    color: #f9faf8;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
