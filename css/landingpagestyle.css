@@ -72,13 +72,30 @@
     background-color: white;
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
 
 }
-.second-box {
-    background-color: white;
+
+.content-container {
     display: flex;
-    justify-content: column;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+    flex-basis: 1 1 0;
     flex-wrap: wrap;
+}
+
+.second-box {
+    background-color: WHITE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
 }
 
 .squares {
@@ -87,15 +104,16 @@
     border-style: solid;
     border-radius: 25px;
     border-color: #3882f6;
-    margin: 60px;
     width: 200px;
     height: 200px;
     
     
 }
 .subtext1 {
-    
-    
+ text-align: center;
+ margin-top: 10%;
+ font-size: 18px;
+ font-weight: bolder;
   
 }
 
